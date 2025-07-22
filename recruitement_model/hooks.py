@@ -280,18 +280,17 @@ fixtures = [
         ]
     },
 
-    # Custom DocTypes
+    # Custom DocTypes (ensure these exist in your app)
     {
-        "doctype": "Interview Skill Rating"
-    },
-    {
-        "doctype": "Interview Rounds"
-    },
-    {
-        "doctype": "Job Opening custom doc"
-    },
-    {
-        "doctype": "Job Title"
+        "doctype": "DocType",
+        "filters": {
+            "name": ["in", [
+                "Interview Skill Rating",
+                "Interview Rounds",
+                "Job Opening custom doc",
+                "Job Title"
+            ]]
+        }
     },
 
     # Web Pages
