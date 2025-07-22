@@ -242,3 +242,100 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+override_doctype_class = {
+     "Interview": "recruitement_model.overrides.custom_interview.CustomInterview"
+
+}
+
+
+
+
+doctype_js = {
+    "Job Applicant": "public/js/job_applicant.js",
+    "Interview": "public/js/interview.js"
+}
+
+app_include_py = ["recruitement_model.api"]
+
+
+# permission_query_conditions = {
+#     "Interview": "recruitement_model.doctype.interview.interview.get_permission_query_conditions"
+# }
+
+# has_permission = {
+#     "Interview": "recruitement_model.doctype.interview.interview.has_permission"
+# }
+
+
+fixtures = [
+    # Custom Fields for multiple DocTypes
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            ["dt", "in", [
+                "Job Applicant",
+                "Interview",
+                "Job Opening"
+            ]]
+        ]
+    },
+
+    # Custom DocTypes
+    {
+        "doctype": "Interview Skill Rating"
+    },
+    {
+        "doctype": "Interview Rounds"
+    },
+    {
+        "doctype": "Job Opening custom doc"
+    },
+    {
+        "doctype": "Job Title"
+    },
+
+    # Web Pages
+    {
+        "doctype": "Web Page",
+        "filters": [
+            ["name", "in", [
+                "about-us",
+                "all-courses",
+                "contact",
+                "home",
+                "statistics",
+                "batches",
+                "courses",
+                "explore",
+                "job",
+                "career"
+            ]]
+        ]
+    },
+
+    # Notifications
+    {
+        "doctype": "Notification",
+        "filters": [
+            ["name", "in", [
+                "Job Offer Send To Applicant",
+                "Interview Scheduled Mail To Interviewer",
+                "Interview Scheduled Mail Send To Applicant",
+                "Job Application Received Mail For Applicant"
+            ]]
+        ]
+    },
+
+    # Website Settings
+    {
+        "doctype": "Website Settings"
+    },
+
+    # Website Theme
+    {
+        "doctype": "Website Theme",
+        "filters": [
+            ["name", "=", "Standard"]
+        ]
+    }
+]

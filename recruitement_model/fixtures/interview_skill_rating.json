@@ -1,0 +1,79 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Interview Skill Rating",
+  "modified": "2025-07-21 16:22:20.568135",
+  "name": "5ndq0uhiuo",
+  "parent": "HR-INT-2025-0001",
+  "parentfield": "custom_interview_skills__table",
+  "parenttype": "Interview",
+  "skill": "Python",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Interview Skill Rating",
+  "modified": "2025-07-21 17:02:51.636498",
+  "name": "tf40pilq3k",
+  "parent": "HR-INT-2025-0002",
+  "parentfield": "custom_interview_skills__table",
+  "parenttype": "Interview",
+  "skill": "Manual Testing",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Interview Skill Rating",
+  "modified": "2025-07-21 16:22:20.568135",
+  "name": "5ndivu880b",
+  "parent": "HR-INT-2025-0001",
+  "parentfield": "custom_interview_skills__table",
+  "parenttype": "Interview",
+  "skill": "Django",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Interview Skill Rating",
+  "modified": "2025-07-21 17:02:51.636498",
+  "name": "tf4t4jv54e",
+  "parent": "HR-INT-2025-0002",
+  "parentfield": "custom_interview_skills__table",
+  "parenttype": "Interview",
+  "skill": "Mysql",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Interview Skill Rating",
+  "modified": "2025-07-21 16:22:20.568135",
+  "name": "5ndu28q3v7",
+  "parent": "HR-INT-2025-0001",
+  "parentfield": "custom_interview_skills__table",
+  "parenttype": "Interview",
+  "skill": "HTML",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Interview Skill Rating",
+  "modified": "2025-07-21 17:02:51.636498",
+  "name": "tf4g0d0oi7",
+  "parent": "HR-INT-2025-0002",
+  "parentfield": "custom_interview_skills__table",
+  "parenttype": "Interview",
+  "skill": "Communication",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Interview Skill Rating",
+  "modified": "2025-07-21 16:22:20.568135",
+  "name": "5nd52hb4bm",
+  "parent": "HR-INT-2025-0001",
+  "parentfield": "custom_interview_skills__table",
+  "parenttype": "Interview",
+  "skill": "CSS",
+  "skill_type": "Required"
+ }
+]

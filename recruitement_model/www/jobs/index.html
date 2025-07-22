@@ -1,0 +1,41 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="container py-5">
+  <h1 class="mb-5 text-center">Current Job Openings</h1>
+
+  <div class="row">
+    {% for job in jobs %}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body d-flex flex-column">
+
+            <!-- Job Title (link to job description page) -->
+            <h5 class="card-title">
+              <a href="/{{ job.route }}" class="stretched-link text-decoration-none text-primary">
+                {{ job.job_title }}
+              </a>
+            </h5>
+
+            <!-- Company Name and Posting Date -->
+            <p class="mb-1"><strong>Company:</strong> {{ job.company }}</p>
+            <p class="mb-2"><strong>Posted on:</strong> {{ frappe.utils.formatdate(job.posted_on) }}</p>
+
+            <!-- Status Badge -->
+            {% if job.status == "Closed" %}
+              <span class="badge bg-white text-danger border border-danger">Closed</span>
+            {% else %}
+              <span class="badge bg-white text-success border border-success">Open</span>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <div class="col-12 text-center">
+        <p class="text-muted">No job openings available at the moment. Please check back later.</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

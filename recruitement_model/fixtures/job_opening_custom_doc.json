@@ -1,0 +1,178 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:00:37.519295",
+  "name": "s57i73vq69",
+  "parent": "HR-OPN-2025-0002",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Android ios",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 12:50:34.916067",
+  "name": "9ktpsls01f",
+  "parent": "HR-OPN-2025-0004",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Python",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:02:16.814455",
+  "name": "t48kg7cslr",
+  "parent": "HR-OPN-2025-0006",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Django",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 16:59:43.183943",
+  "name": "rk78b7e2oc",
+  "parent": "HR-OPN-2025-0008",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Manual Testing",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:00:37.519295",
+  "name": "s57jlnorcb",
+  "parent": "HR-OPN-2025-0002",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Dart",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 12:50:34.916067",
+  "name": "9kt46kcb48",
+  "parent": "HR-OPN-2025-0004",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Django",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:02:16.814455",
+  "name": "t48rpstfm2",
+  "parent": "HR-OPN-2025-0006",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Python",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 16:59:43.183943",
+  "name": "rk7kodr27e",
+  "parent": "HR-OPN-2025-0008",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Mysql",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:00:37.519295",
+  "name": "s57n7amjlt",
+  "parent": "HR-OPN-2025-0002",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "HTML",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 12:50:34.916067",
+  "name": "9kthn1pvmh",
+  "parent": "HR-OPN-2025-0004",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "HTML",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:02:16.814455",
+  "name": "t48o35ajn9",
+  "parent": "HR-OPN-2025-0006",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "HTML",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 16:59:43.183943",
+  "name": "rk7b13j1lu",
+  "parent": "HR-OPN-2025-0008",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "Communication",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:00:37.519295",
+  "name": "s57ak8ll51",
+  "parent": "HR-OPN-2025-0002",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "CSS",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 12:50:34.916067",
+  "name": "9ktde0tq75",
+  "parent": "HR-OPN-2025-0004",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "CSS",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:02:16.814455",
+  "name": "t48uuuq713",
+  "parent": "HR-OPN-2025-0006",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "CSS",
+  "skill_type": "Required"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Job Opening custom doc",
+  "modified": "2025-07-21 17:02:16.814455",
+  "name": "t4890bjjdo",
+  "parent": "HR-OPN-2025-0006",
+  "parentfield": "custom_skills",
+  "parenttype": "Job Opening",
+  "skill": "GitHUB",
+  "skill_type": "Required"
+ }
+]
